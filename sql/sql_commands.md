@@ -37,6 +37,8 @@ SELECT TOP 50 PERCENT * FROM customers;
 ### WHERE
 - allows you to filter your query to only return results that match a set of conditions.
 
+- filters rows before aggregation
+
 ### AND
 
 - combines 2 or more conditions in a single query, all of the conditions must be met for result to be returned
@@ -123,6 +125,8 @@ CREATE VIEW creates a virtual table based on the result set of an SQL statement.
 ### DROP
 DROP statements can be used to delete entire databases, tables or indexes.
 
+cant rollback
+
 ### UPDATE
 ```
 UPDATE customers
@@ -133,6 +137,8 @@ WHERE name = ‘Bob’;
 
 ### DELETE
 - can delete all the rows or specific rows using WHERE
+
+can rollback
 
 
 ### ALTER TABLE
@@ -145,8 +151,6 @@ ALTER TABLE customers
 DROP COLUMN surname;
 ```
 
-
-
 ### GROUP BY
 The GROUP BY statement groups rows with the same values into summary rows. The statement is often used with aggregate functions. For example, the code below will display the average age for each name that appears in our customers table.
 ```
@@ -158,6 +162,8 @@ GROUP BY name;
 
 ### HAVING
 HAVING performs the same action as the WHERE clause. The difference is that HAVING is used for aggregate functions, whereas WHERE doesn’t work with them.
+
+- filters rows after aggregation
 
 ```
 SELECT COUNT(customer_id), name
@@ -227,6 +233,8 @@ WHERE EXISTS
 
 ### TRUNCATE
 TRUNCATE TABLE removes all data entries from a table in a database, but keeps the table and structure in place. Similar to DELETE.
+
+cant rollback
 
 ### UNION
 UNION combines multiple result-sets using two or more SELECT statements and eliminates duplicate rows.
