@@ -1,13 +1,13 @@
 1. Data Preprocessing
 Data Cleaning
-Handling missing values
+Handling missing values ✅
 Removing duplicates
 Outlier detection & removal
 Noise filtering
-Data imputation
+Data imputation ✅
 Data Transformation
-Normalization (Min–Max, MaxAbs, Unit vector)
-Standardization (Z-score scaling)
+Normalization (Min–Max, MaxAbs, Unit vector) ✅
+Standardization (Z-score scaling) ✅
 Log transform
 Power transform (Box-Cox, Yeo-Johnson)
 Binning (discretization)
@@ -54,9 +54,9 @@ Adam / AdamW
 Learning rate schedules
 ✅ 4. Training & Evaluation Techniques
 Model Evaluation
-Train/test split
-Cross-validation (k-fold, stratified)
-Bootstrapping
+Train/test split ✅
+Cross-validation (k-fold, stratified)  ✅
+Bootstrapping ✅
 Bias-variance assessment
 Learning curves
 Confusion matrix
@@ -73,6 +73,27 @@ Model comparison
 ✅ 5. Data Handling & Pipelines
 Train/test leakage prevention
 Data versioning
-Data augmentation (images, audio, text)
+Data augmentation (images, audio, text) ✅
 Feature scaling pipelines
 Cross-validation pipelines
+
+
+
+
+
+
+
+
+
+-----------
+
+# tips
+
+In regards to your next comment the 1:1 questions were non technical, e.g purely skills based: how have you shown X ....? so prep accordingly for the main lloyds skills and values (you receive this in the preparation pack).
+
+
+Skills interview had roughly 12 questions: 2 intro, lloyds, motivations Q's at beginning, then 8 competencies - (you Will get an indication of the competencies in the intro webinar thats sent through, WATCH IT!!) and then 2 values questions ( again in intro webinar)
+
+Group exercise had discussion, debate elements and then required presentation to non technical stakeholders (your assessors). You then had 1-1 follow ups with the assessors in a separate room to refelect on performance: would you have done anything different....
+
+Pre work discussion pretty cut and clean: present opinion on the given topic, then be ready to field questions including wider business ripples etc.
