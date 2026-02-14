@@ -1,1 +1,6 @@
 *.csv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+drawing_board/*.png
