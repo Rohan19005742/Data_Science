@@ -5,10 +5,11 @@ A simple interactive drawing board application built with Python.
 ## Features
 
 - Interactive canvas for drawing
-- Multiple drawing tools (pen, eraser, shapes)
-- Color selection
-- Save and load drawings
+- Multiple drawing tools (pen, eraser)
+- Color selection (preset colors and custom color picker)
+- Save drawings as PNG files
 - Clear canvas functionality
+- Adjustable pen width
 
 ## Requirements
 
